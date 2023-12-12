@@ -12,4 +12,8 @@
     .navbar-item {
         @apply font-bold text-3xl py-5 px-7 m-2 text-center
     }
+
+    .plan-img {
+        @apply  w-full h-full object-cover p-2
+    }
 }

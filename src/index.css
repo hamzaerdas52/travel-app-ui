@@ -16,4 +16,8 @@
     .plan-img {
         @apply  w-full h-full object-cover p-2
     }
+
+    .slider-arrow {
+        @apply absolute top-[50%] rounded-full p-2 group-hover:bg-black/30 text-white cursor-pointer -translate-x-0 translate-y-[-50%] 
+    }
 }

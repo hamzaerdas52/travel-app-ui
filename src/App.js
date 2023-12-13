@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import ImageSlider from "./components/ImageSlider";
 import Navbar from "./components/Navbar";
 import Offers from "./components/Offers";
 import Plan from "./components/Plan";
@@ -12,6 +13,7 @@ function App() {
       <Offers />
       <Plan />
       <Rooms />
+      <ImageSlider />
     </div>
   );
 }
